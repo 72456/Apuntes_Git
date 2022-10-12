@@ -85,3 +85,44 @@ Git historial
 	preferentemente escribir primero el número de la version más vieja y luego el de la mas nueva
 NOTA IMPORTANTE: Para salir de la inteface de cambios del git usa la letra "q"
 //Como volver a una versión vieja
+
+Clase 4
+********************************
+Sacar archivos del repositorio
+********************************
+// Ramas, se usa para crear ramas como por ejemplo, una rama experimental del proyecto o un "bugfixing" "hotfix"
+	se usa para separar el proyecto en ramas y posteriormente se unen en una version final mediante un "merge"
+
+	se suelen usar tres ramas en un proyecto
+	Rama 1 = Master
+	Rama 2 = development (experiementos)
+	Rama 3 = hotfix      (bugfixing)
+//Para volver a una version anterior se usa
+	git reset "numero del repositorio" --hard  (Este es el más peligroso, por que vuelve al estado completo anterior, borra todo lo que se hizo anteriormente)
+	git reset "número del repositorio" --soft  (Lo que se tiene en staging sigue ahí, es decir no se borra lo anterior)
+	 
+//ver cambios espcificos del git 
+	git log --stat
+	con la letra q se puede salir del menu
+//regresar al primer commit
+	Copiar el indicador del primer commit y luego se hace un checkput
+	git checkout "número del commit" "nombre del archivo con extensión"
+	Ejemplo: checkout 35b561fa6817151e6ec1d8e4f2848d232357e955 historia.txt
+	para regresar a la ultima version se usa
+	git checkout master "nombre del archivo"
+	Ejemplo:git checkout master historia.txt 
+// git rm
+	Este comando nos ayuda a eliminar el archivo de git, sin eliminar su historial del sistema de versiones.
+	Esto quiere decir que si necesitamos recuperar el archivo solo debemos "viajar en el tiempo" y recuperar el útimo commit antes de norrar el archivo en cuestion
+	git rm -m "mensaje" "nombre del archivo con extensión"
+//git rm --cached
+	Elimina los archivos de nuestro repositorio local y del área de staging, pero los maniene en nuestro disco duro. Básicamente le dice a git
+	que deje de trackear el historial de cambios de estos archivos, por lo que pasara a un estado untracked
+//git rm --force
+	Elimina los archivos de git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia
+	de los archivos, de modo que podemos recuperarlos si es necesario (pero se usan comandos más avanzados)
+//git reset HEAD
+	Este es el comando para sacar archivos del área de staging. No para borrarlos ni nada de eso, solo para que los últimos cambios
+	de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y lo incluyamos de nuevo.
+
+
