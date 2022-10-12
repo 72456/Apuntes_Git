@@ -1,0 +1,44 @@
+Clase 1
+***************************
+Comandos de consola
+***************************
+// Ir  la carpeta del home
+	cd /
+// Ver archivo
+	ls -l
+//ver archivos cultos 
+	ls -al
+// limpiar la consola
+	clear
+	ctrl + l
+// Ir a otro disco duro 
+	cd /mnt/'nobre del disco'
+//Ir a disco c
+	cd /c
+//Mostrar en que carpeta me encuentro
+	pwd
+//Crear una carpeta
+	mkdir _nombre de la carpeta_
+//Copiar una carpeta
+	cp _nombre arcivo a copiar_ _nombre nuevo del archivo_
+//Visualizar rutas en arbol
+	tree
+//Mover un archivo hacia atras
+	mv _nombre del archivo_ ..
+	mv _nombre del archivo_ _nombre de la carpeta a donde se movera_
+//Renombrar un archivo
+	mv _nombre actual_ _nombre nuevo del archivo_
+//Borrar un archivo (remover)
+	rm _nombre de lo que se borrara_
+	"buena practica"
+	rm -i _nombre del archivo_ ***Esto preguntara si quieres borrarlo***
+// ver ayuda del comando, se usa para todos los comands
+	rm --help
+	comando --help
+//Borrar una carpeta o directorio (remover)
+	rm -ri _nombre de la carpeta o directorio_
+//mostrar e contenido de un archivo
+	cat 'nobre del archivo.extension'
+//Mostrar la historia de comandos que he usado
+	history
+	!numero de comando
