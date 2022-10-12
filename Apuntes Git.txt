@@ -68,3 +68,20 @@ Apuntes de Git
 	code 'nombre de archivo con extnsion"
 //ver los cambios hechos
 	git log "nombre del archivo"
+
+Clase 3
+*******************************
+Git historial
+*******************************
+//Mostrar el historial de cambios
+	git log "nombre del archivo"
+//Mostrar los cambios que ha habido en un arhcivo
+	git show "nombre del archivo"
+//Actualizar todo todo
+	git add .
+//Comparar versiones modifcadas
+	git diff "número de commit comparar 1" "numero de commit a comparar 2"
+	Ejemplo número de comit:fbbe4b2a024b675e49ca57f527101566dd22a614 
+	preferentemente escribir primero el número de la version más vieja y luego el de la mas nueva
+NOTA IMPORTANTE: Para salir de la inteface de cambios del git usa la letra "q"
+//Como volver a una versión vieja
