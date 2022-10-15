@@ -115,7 +115,7 @@ Sacar archivos del repositorio
 	Este comando nos ayuda a eliminar el archivo de git, sin eliminar su historial del sistema de versiones.
 	Esto quiere decir que si necesitamos recuperar el archivo solo debemos "viajar en el tiempo" y recuperar el útimo commit antes de norrar el archivo en cuestion
 	git rm -m "mensaje" "nombre del archivo con extensión"
-//git rm --cached
+//git rm --cached (git rm --cached "nombre del archivo")
 	Elimina los archivos de nuestro repositorio local y del área de staging, pero los maniene en nuestro disco duro. Básicamente le dice a git
 	que deje de trackear el historial de cambios de estos archivos, por lo que pasara a un estado untracked
 //git rm --force
