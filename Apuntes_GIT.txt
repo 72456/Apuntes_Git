@@ -124,6 +124,6 @@ Sacar archivos del repositorio
 //git reset HEAD
 	Este es el comando para sacar archivos del área de staging. No para borrarlos ni nada de eso, solo para que los últimos cambios
 	de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y lo incluyamos de nuevo.
-//Añadir una línea
+	
 
 
