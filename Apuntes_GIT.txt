@@ -155,7 +155,7 @@ Creación de ramas
 	Muestra las estadistícas de los cambios hechos en commit
 // git show		
 	Muestra los últimos cambios hechos 
-// git branch Nombre de la rama
+// git branch Nombre de la ramagit branch Nombre de la rama
 	La rama se crea desde el lugar donde estoy
 	asegrarse que el head este en el master, esto se verifica con git show
 	git branch cabecera
@@ -166,9 +166,14 @@ Creación de ramas
 	
 ****
 2) Este es el cambio hecho en la rama master para fusionar después
-
-
-//git branch	
+	asegrarse que el head este en el master, esto se verifica con git show
+	git branch cabecera
+//git checkout nombre de la rama	
+	Este comando se usa para moverse de rama
+	git checkout cabecera
+	con git show, se puede verificar que el head esta en rama deseada, en esta caso cabecera
+********Aquí se hizo el cambio a cabecera
+1) Este es el cambio en cabecera para fusionar después//git branch	
 	Indica que ramas hay y en que ramas estamos
 //git merge "nombre de la rama de donde se traeran los cambio" 
 	Fusionar archivos de ambas ramas 
@@ -177,7 +182,7 @@ Creación de ramas
 	1) poner el head en master
 	2) invocar el comando merge en master
 	3) nunca debe estar la misma línea escrita
-	4) Ejemplo: git merge cabecera
+	4) Ejemplo: git merge cabecera -m "Esta es la fusión"
 
 
 	
