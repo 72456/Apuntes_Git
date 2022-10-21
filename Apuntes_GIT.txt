@@ -164,5 +164,7 @@ Creación de ramas
 	git checkout cabecera
 	con git show, se puede verificar que el head esta en rama deseada, en esta caso cabecera
 	
+****
+2) Este es el cambio hecho en la rama master para fusionar después
 
 
