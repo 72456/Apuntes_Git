@@ -159,6 +159,10 @@ Creación de ramas
 	La rama se crea desde el lugar donde estoy
 	asegrarse que el head este en el master, esto se verifica con git show
 	git branch cabecera
+//git checkout nombre de la rama	
+	Este comando se usa para moverse de rama
+	git checkout cabecera
+	con git show, se puede verificar que el head esta en rama deseada, en esta caso cabecera
 	
 
 
