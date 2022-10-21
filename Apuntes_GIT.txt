@@ -183,6 +183,6 @@ Creación de ramas
 	2) invocar el comando merge en master
 	3) nunca debe estar la misma línea escrita
 	4) Ejemplo: git merge cabecera -m "Esta es la fusión"
-
+***** Simulación de conflicto en cabecera
 
 	
