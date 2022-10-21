@@ -144,7 +144,7 @@ Comandos para trabajo remoto con GIT
 //git pull
 	Básicamente, git fetch y git merge al mismo tiempo
 
-CClase 6
+Clase 6
 ***********************************
 Creación de ramas
 ***********************************
