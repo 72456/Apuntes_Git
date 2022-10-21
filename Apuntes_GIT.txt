@@ -148,5 +148,15 @@ Clase 6
 ***********************************
 Creación de ramas
 ***********************************
+//git commit -am
+	Se hace el commit y el add al mismo timpo con archivos que ya se les había hecho commit
+	git commit -am "Este es un cambio más hecho"
+//git log --stat	
+	Muestra las estadistícas de los cambios hechos en commit
+// git show		
+	Muestra los últimos cambios hechos 
+// 
+	La rama se crea desde el lugar donde estoy
+
 
 
