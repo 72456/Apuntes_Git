@@ -155,8 +155,10 @@ Creación de ramas
 	Muestra las estadistícas de los cambios hechos en commit
 // git show		
 	Muestra los últimos cambios hechos 
-// 
+// git branch Nombre de la rama
 	La rama se crea desde el lugar donde estoy
-
+	asegrarse que el head este en el master, esto se verifica con git show
+	git branch cabecera
+	
 
 
