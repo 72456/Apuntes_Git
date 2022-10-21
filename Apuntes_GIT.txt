@@ -143,4 +143,10 @@ Comandos para trabajo remoto con GIT
 	para combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo
 //git pull
 	Básicamente, git fetch y git merge al mismo tiempo
-	
+
+Clase 6
+***********************************
+Creación de ramas
+***********************************
+
+
