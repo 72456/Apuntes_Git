@@ -168,13 +168,15 @@ Creación de ramas
 2) Este es el cambio hecho en la rama master para fusionar después
 
 
-//
+//git branch	
+	Indica que ramas hay y en que ramas estamos
+//git merge 
 	Fusionar archivos de ambas ramas 
 	Merge, el merge siempre va a ocurrir en la rama donde estamos si hago el merge (fusion) desde la cabecera
 	las versiones de branch se iran a cabecera, se recomienda traer a master lo que se hace en cabecera
 	1) poner el head en master
 	2) invocar el comando merge en master
 	3) nunca debe estar la misma línea escrita
-	
+
 
 	
