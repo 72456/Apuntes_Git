@@ -144,7 +144,7 @@ Comandos para trabajo remoto con GIT
 //git pull
 	Básicamente, git fetch y git merge al mismo tiempo
 
-Clase 6
+CClase 6
 ***********************************
 Creación de ramas
 ***********************************
@@ -155,8 +155,12 @@ Creación de ramas
 	Muestra las estadistícas de los cambios hechos en commit
 // git show		
 	Muestra los últimos cambios hechos 
-// 
+// git branch Nombre de la rama
 	La rama se crea desde el lugar donde estoy
-
-
-
+	asegrarse que el head este en el master, esto se verifica con git show
+	git branch cabecera
+//git checkout nombre de la rama	
+	Este comando se usa para moverse de rama
+	git checkout cabecera
+	con git show, se puede verificar que el head esta en rama deseada, en esta caso cabecera
+********Aquí se hizo el cambio a cabecera
