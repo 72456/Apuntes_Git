@@ -208,13 +208,20 @@ clase 7 Github
 	Envía la rama master al origen 
 	después de esto solo darle accesos con el número de usuario y contraseña
 	En git hub tengo un archivo readme que debo de trarme para esto se hace lo siguiente
-//git remote pull origin maniene
-	Trae los archivos de readme desde github 
+//git remote pull origin master
+	Trae los archivos desde github 
 //git pull oigin main --allow-unrelated-histories 
 	permite relacionar las historias de github
 	con esto se trajo a readme
-//git push origin master	
-	La intrucción pedirá un usuario y contraseña
-	por disposición desde agosto de 2021 se usan token y no contraseñas
-	por lo cual hay que generar un token en lína esto se hace asi 
-	1) https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+//git push origin master 	
+	Para añadir archivos a github con git push origin master 
+	se necesita acceso con el nombre de usuario y una contraseña
+	por disposición la constraseña ya no se usa y en su lugar se usa un token
+	este toquen se genera así
+	https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+	
+
+
+
+
+//Haciendo una edición desde github una más
