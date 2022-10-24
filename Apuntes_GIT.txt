@@ -61,7 +61,7 @@ Apuntes de Git
 //Configurar quienes somos para git
 	git config
 	git --list
-	git --list --show-oigin
+	git --list --show-origin
 	git config --global user.name "Nombre"
 	git config --global user.email "Nombre"
 //abrir un archivo en visual studio desde la consola
@@ -193,6 +193,22 @@ Práctica de errores
 **********************
 clase 7 Github
 **********************
-
-
-	
+//Crear una cuenta de  Github	
+	Para crear y empezar a trabajar, basta con iniciar en la página de Github
+	a considerar lo siguiente
+	1) Es una buena práctica crear un archvio de readme
+	2) Esta es  un ejemplo de una url creada para un repositorio https://github.com/72456/Apuntes_Git
+	3) Copiar la url y en el repositorio
+//git remote add origin "dirección url"
+	Agregar un origen remoto de los archivos, para entrar a github
+	Ejemplo: git remote add origin https://github.com/72456/Apuntes_Git.git
+//git remote -v
+	muestra el orgin para hacer fetch y push (traer cosas y enviar cosas)
+//git push origin master
+	Envía la rama master al origen 
+	después de esto solo darle accesos con el número de usuario y contraseña
+	En git hub tengo un archivo readme que debo de trarme para esto se hace lo siguiente
+//git remote pull origin maniene
+	Trae los archivos de readme desde github 
+//git pull oigin main --allow-unrelated-histories 
+	permite relacionar las historias de github
