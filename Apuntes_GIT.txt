@@ -227,10 +227,17 @@ IMPORTANTE DE RECORDAR
 	Para enviar a github
 //git pull origin master
 	Para traer los cambios hechos desde github
+	
+************************
+Moverse en las versiones
+************************
+Supongamos que nos queremos mover en una versión que use antes
+para ello hare lo siguiente
+git checkout "número de comit"
+Esto me llevará a esa version y con code "nombre del archivo"
+podre ver como estaba ese archivo en ese momento 
 
 
 
 
-//Haciendo una edición desde github una más
-//Ultima actualización desde github 2
 
