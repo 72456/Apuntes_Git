@@ -214,3 +214,7 @@ clase 7 Github
 	permite relacionar las historias de github
 	con esto se trajo a readme
 //git push origin main 
+
+
+
+//Haciendo una edición desde github
