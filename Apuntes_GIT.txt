@@ -204,7 +204,7 @@ clase 7 Github
 	Ejemplo: git remote add origin https://github.com/72456/Apuntes_Git.git
 //git remote -v
 	muestra el orgin para hacer fetch y push (traer cosas y enviar cosas)
-//git push origin master
+//git push origin master  	
 	Envía la rama master al origen 
 	después de esto solo darle accesos con el número de usuario y contraseña
 	En git hub tengo un archivo readme que debo de trarme para esto se hace lo siguiente
@@ -212,3 +212,5 @@ clase 7 Github
 	Trae los archivos de readme desde github 
 //git pull oigin main --allow-unrelated-histories 
 	permite relacionar las historias de github
+	con esto se trajo a readme
+//git push origin main 
